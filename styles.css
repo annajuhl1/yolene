@@ -1,0 +1,347 @@
+/*RESET REGLER*/
+*{
+    margin:0;
+    padding:0;
+}
+
+
+/*HEADER*/
+/* Slideshow container */
+.slideshow-container {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 50px;
+  }
+  
+  .active {
+    background-color: #a5a5a5;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 3s;
+
+  }
+
+  .headerbillede{
+    max-width: 100%;
+  }
+  
+  @keyframes fade {
+    from {opacity: .3} 
+    to {opacity: 1}
+  }
+  
+  /* On smaller screens, decrease text size */
+  @media only screen and (max-width: 300px) {
+    .text {font-size: 11px}
+
+
+  }
+ 
+
+/*Motiongraphics*/
+
+.gifbillede{
+    width: 300px;
+}
+
+.motiongraphics{
+    justify-content: center;
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.motiongraphics h2{
+    text-align: center;
+    font-family: "orpheuspro", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.motiongraphics a{
+   text-decoration: none;
+   color: black;
+}
+
+.overskriftmotiongraphics{
+    text-align: center;
+    font-family: "orpheuspro", serif;
+    font-size:xx-large;
+    padding-bottom:  50px;
+}
+/*HISTORIEN BAG*/
+.førstesection{
+    display: flex;
+    margin: 100px;
+}
+
+.historien h1{
+    font-family: "orpheuspro", serif;
+    font-style: normal;
+    margin-left: 50px;
+    padding-bottom: 10px;
+}
+
+.historien h2{
+    font-family: "orpheuspro", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-weight: 100;
+    margin-left: 50px;
+}
+
+.bølge img{
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+/*video*/
+.video {
+    justify-content: center;
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/*HVEM ER VI?*/
+.andensection{
+    display: flex;
+    margin:100px;
+}
+
+.damerne h1{
+    font-family: "orpheuspro", serif;
+    font-style:normal;
+    margin-right: 50px;
+    padding-bottom: 10px;
+}
+
+.damerne h2{
+    font-family: "orpheuspro", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-weight: 100;
+    margin-right: 50px;
+}
+
+
+
+/*HVORFOR YOLENE?*/
+.tredjesection{
+    display: flex;
+    margin:100px;
+}
+
+.yolene h1{
+    font-family: "orpheuspro", serif;
+    font-style: normal;
+    margin-left: 50px;
+    padding-bottom: 10px;
+}
+
+.yolene h2{
+    font-family: "orpheuspro", serif;
+    font-style: normal;
+    font-weight: 100;
+    margin-left: 50px; 
+}
+
+.sidstesection h1{
+    text-align: center;
+    font-family: "orpheuspro", serif;
+    font-style: normal;
+    margin-top: 50px;
+    padding-bottom: 10px;
+}
+
+
+.lillebølge{
+    display: flex;
+    justify-content: center;
+}
+
+.lillebølge1{
+  display: flex;
+  justify-content: center;
+}
+
+/*TOGTER*/
+.togtsection{
+    justify-content: center;
+    display: flex;
+    margin: 10px;
+}
+
+.indhold{
+    padding: 50px;
+}
+
+.indhold h1{
+        font-family: "orpheuspro", serif;
+        font-weight: 400;
+        font-style:normal;
+      }
+      
+.indhold h2{
+        font-family: "orpheuspro", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: medium;
+      }
+.indhold p{
+    font-family: "orpheuspro", serif;
+    font-weight: 400;
+    font-style:normal;
+    font-size: medium;
+}
+
+#panel, #flip {
+    text-align: center;
+  }
+  
+  #panel {
+    width: 300px;
+    display: none;
+  }
+  
+  #panel1, #flip1 {
+    text-align: center;
+  }
+  
+  #panel1 {
+    width: 300px;
+    display: none;
+  }
+  
+  #panel2, #flip2 {
+    text-align: center;
+  }
+  
+  #panel2 {
+    width: 300px;
+    display: none;
+  }
+  
+
+/*FOOTER*/
+.socialemedier{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+.socialemedier a{
+    font-size: 20pt;
+    color:#afc3d4;
+    margin: 2px;
+}
+
+.socialemedier a :hover{
+    color: black;
+    transition: color 1s ease-out 100ms;
+}
+
+
+/*RESPONSIVE*/
+/*MOBIL - motiongraphics*/
+@media screen and (max-width:850px){
+
+.motiongraphics{
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.båd{
+  max-width: 100%;
+  height: auto;
+}
+
+.billedeafpigerne{
+  max-width: 100%;
+  height: auto;
+}
+
+.yo{
+  max-width: 100%;
+  height: auto;
+}
+
+#video{
+  width: 500px;
+  height: 200;
+}
+
+}
+
+/*RESPONSIVE*/
+/*MOBIL*/
+@media screen and (max-width:1100px){
+.førstesection{
+  justify-content: center;
+  flex-direction: column;
+  }
+
+.historien h1{
+  margin: 0px;
+}
+.historien h2{
+  margin: 0px;
+}
+
+.andensection{
+  justify-content: center;
+  flex-direction: column;
+}
+
+.damerne h1{
+  margin: 0px; 
+}
+.damerne h2{
+  margin: 0px; 
+}
+
+.tredjesection{
+  justify-content: center;
+  flex-direction: column;
+}
+
+.yolene h1{
+  margin: 0px;
+}
+
+.yolene h2{
+  margin: 0px;
+}
+
+.togtsection{
+  flex-direction: column;
+  justify-content: center;
+}
+
+.indhold{
+  flex-direction: column;
+}
+
+
+#flip, #flip1, #flip2 {
+  justify-content: center;
+}
+
+.lillebølge1 {
+  width: fit-content;
+}
+}
+
+@media screen and (min-width:880px){
+.lillebølge1{
+  display: none;
+}
+}
